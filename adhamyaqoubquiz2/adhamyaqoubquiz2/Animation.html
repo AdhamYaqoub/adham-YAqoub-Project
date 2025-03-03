@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adham yaqoub</title>
+    <link rel="stylesheet" href="css/myStyle.css"/>
+</head>
+<body>
+<div class="section" id="sec1">
+    <div class="circle" id="c1"><center><p>طوفان</p></center></div>
+    <input type="range" id="rangeC1" name="rangeC1" min="50" max="100" value="50" oninput="updateCircleSize('c1', 'rangeC1')">
+    <div class="circle" id="c2"><center><p>الاقصى</p></center></div>
+    <input type="range" id="rangeC2" name="rangeC2" min="50" max="100" value="50" oninput="updateCircleSize('c2', 'rangeC2')">
+
+</div>
+
+<div class="section" id="sec2">
+    <div class="image-containerQuds">
+        <img src="/imgs/Quds1.png" alt="photo Quds" class="image" onclick="pauseCircles()">
+    </div>
+</div>
+
+<div class="section" id="sec3">
+    <div class="image-container">
+        <img src="/imgs/p1.png" alt="photo p1" class="image" id="pImag">
+        <img src="/imgs/p2.png" alt="photo p2" class="image image2" id="pImag2">
+    </div>
+</div>
+<script src="js/myscript.js"></script>
+
+</body>
+</html>
